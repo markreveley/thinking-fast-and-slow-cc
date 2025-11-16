@@ -78,6 +78,9 @@ class EvolutionarySelector:
             raise ValueError("No candidates to select from")
 
         if len(candidates) == 1:
+            # Still score the single candidate
+            score = self.score_candidate(candidates[0], task, criteria_weights)
+            candidates[0]['final_score'] = score
             return candidates[0], "Only one candidate available"
 
         # Score all candidates
