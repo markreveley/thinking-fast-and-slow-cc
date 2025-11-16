@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-16T04:31:20.238070",
+  "facts": [
+    {
+      "content": "Agent swarms use evolutionary selection to choose best outputs",
+      "category": "architecture",
+      "timestamp": "2025-11-16T04:30:41.311028"
+    },
+    {
+      "content": "System-1 agents are fast but less accurate",
+      "category": "agent_behavior",
+      "timestamp": "2025-11-16T04:30:41.311559"
+    },
+    {
+      "content": "System-2 agents are slow but more rigorous",
+      "category": "agent_behavior",
+      "timestamp": "2025-11-16T04:30:41.311960"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "webapp_design",
+      "description": "Webapp design tasks benefit from S1 ideation + S2 verification",
+      "success_rate": 0.85,
+      "timestamp": "2025-11-16T04:30:41.312378"
+    }
+  ],
+  "learnings": [
+    {
+      "content": "For complex planning tasks, S2 Planner outperforms S1 agents",
+      "context": "Based on 5 trials",
+      "timestamp": "2025-11-16T04:30:41.312804"
+    },
+    {
+      "content": "Task completed successfully by s2_planner",
+      "context": "Design a small webapp idea for musicians and outline the MVP architecture.",
+      "timestamp": "2025-11-16T04:30:55.800914"
+    },
+    {
+      "content": "Task completed successfully by s1_option_generator",
+      "context": "Brainstorm creative ideas for a mobile app",
+      "timestamp": "2025-11-16T04:31:20.238065"
+    }
+  ],
+  "domain_knowledge": {
+    "webapp": {
+      "preferred_stack": "React + Node.js + PostgreSQL"
+    }
+  }
+}
